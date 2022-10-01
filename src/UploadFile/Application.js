@@ -33,9 +33,8 @@ function Application(props) {
         // const formData = new FormData();
         // formData.append("file", files[0]);
         // formData.append("upload_preset","saddam")
-      
         axios
-        .post('http://localhost:5000', files[0])
+        .post('https://talhaserver.herokuapp.com/', files[0])
         .then(res => {
             setLoader(false)
             navigate(`/result/${res.data}`)
@@ -61,6 +60,7 @@ function Application(props) {
       //   console.log("error")
       // })
       const objectUrl = URL.createObjectURL(files[0])
+      console.log(files[0])
       props.urlHandler(objectUrl)
     }else{
       setDisable(true)
