@@ -34,26 +34,26 @@ export default function Header() {
               d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
             ></path>
           </svg>
-          <span className="ml-3 text-xl">Muhammad Talha Habib</span>
+          <span className="ml-3 text-xl">Saddam Hussain</span>
         </a>
-        <nav
-          className="md:ml-auto flex flex-wrap items-center text-base justify-center"
-        >
+//         <nav
+//           className="md:ml-auto flex flex-wrap items-center text-base justify-center"
+//         >
           
-          <button
-          className="inline-flex items-center ml-2 bg-gray-200 font-medium border-0 py-1 px-7 focus:outline-none hover:bg-gray-300 rounded text-base  md:mt-0" onClick={abouutMe}
-        >
-          About Me
+//           <button
+//           className="inline-flex items-center ml-2 bg-gray-200 font-medium border-0 py-1 px-7 focus:outline-none hover:bg-gray-300 rounded text-base  md:mt-0" onClick={abouutMe}
+//         >
+//           About Me
         
-        </button>
-        <button
-          className="inline-flex items-center mx-4 font-medium bg-gray-200 border-0 py-1 px-7 focus:outline-none hover:bg-gray-300 rounded text-base  md:mt-0" onClick={contactMe}
-        >
-          Contact Me
+//         </button>
+//         <button
+//           className="inline-flex items-center mx-4 font-medium bg-gray-200 border-0 py-1 px-7 focus:outline-none hover:bg-gray-300 rounded text-base  md:mt-0" onClick={contactMe}
+//         >
+//           Contact Me
         
-        </button>
+//         </button>
           
-        </nav>
+//         </nav>
       
       </div>
     </header>
